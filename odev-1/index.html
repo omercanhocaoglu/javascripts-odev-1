@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoşgeldiniz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+
+<script>
+    let Username = prompt("İsminizi Giriniz:");
+    Username = Username.toUpperCase();
+    
+    let Kodluyoruz = "Kodluyoruz Frontend Web Patikası'"
+
+    
+</script>
+
+<style>
+    .text-orange{color:orange ;}
+    
+</style>
+
+
+
+
+
+<body class="bg-dark">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 mt-5 ">
+                <h1 class="text-center">
+                    <img src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" 
+                    class="img-fluid" alt="...">
+                </h1>
+                
+               
+
+                <p class="text-break fw-light text-center fs-2 text-orange">
+                    Merhaba, <span class="fw-bold text-orange">  <script>  document.write(Username)    </script> </span>!
+                    Hoş Geldin!
+                    
+                </p> <br>
+
+                <p class="text-break text-center fs-2">
+                    <span class="fw-bold text-orange">   <script> document.write(
+                        `Saat=${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}
+                       Gün=${new Date().getDay()}    
+                       Tarih=${new Date().getDate()}.${new Date().getMonth()}.${new Date().getFullYear()}     
+                           `) </script> </span>
+                </p> <br>
+
+                <p class=" fs-2 text-orange text-center">
+                  <span class="fw-bold text-orange">  <script> document.write(Kodluyoruz)  </script> </span>nın Javascript bölümü <br>
+                  1. Ödevindesiniz.
+        
+                </p> <br>
+
+               
+
+                <p class="fs-2 text-orange text-center">
+                    İsminiz 
+                 <strong class="text-orange">  <script> document.write(Username.length) </script> </strong> 
+                    karakter barındırmaktadır.
+                </p> 
+           
+           
+           
+           
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
